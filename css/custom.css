@@ -1,0 +1,219 @@
+/*This Custom CSS file has not been structured in any particular order. 
+
+Modify this file to your hearts content and make your website look awesome!*/
+
+
+body{
+	background-color: #111111;
+	padding-top: 80px;
+}
+
+/*Home*/
+.full-page-bg {
+  position: absolute;
+  margin-top: -80px;
+  padding-bottom: 100px;
+  width:100%;
+  min-height: 100vh;
+  background: #ffffff
+}
+
+/*Cards*/
+.card{border: none; background-color: transparent;}
+
+/*Navbar Rules*/
+img.nav-bar-img{
+	margin-right: 10px;
+}
+
+.navbar{
+	background-color: #fff;
+
+}
+
+a.navbar-brand{
+	font-family:'Brandon Grotesque', Sans-Serif;
+}
+
+
+/*Floating Nav*/
+.floating-nav{
+	position: fixed;
+	margin-top: 50px;
+	border-left: 1px solid #727272;
+}
+
+	a.float-nav-link{
+		font-family: 'Brandon Grotesque', Sans-Serif;
+		color: #ffffff;
+		font-size: 14px;
+		font-weight: 600;
+		text-align: left;
+	}
+
+/*Image Rules*/
+img{
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+}
+
+/*Font Override Rules*/
+
+.welcome-special{
+	color: #222222;
+}
+
+ol, ul {
+	
+	margin-bottom: 25px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Brandon Grotesque', Sans-Serif;
+	color: #fff;
+	margin-bottom: 20px;
+
+}
+	h1.welcome-special{
+		font-size: 70px;
+		font-weight: bold;
+	
+	}
+
+	h2.welcome-special-sub{
+		font-family: 'Brandon Grotesque', Sans-Serif;
+		color: #222222;
+		font-size: 30px;
+		font-weight: lighter;
+	}
+
+	h3{
+		color: #ffffff;
+		letter-spacing: -0.5px;
+	}
+
+p, li, span, a {
+	font-family: 'Brandon Grotesque', Sans-Serif;
+	text-align: justify;
+	font-weight: 300;
+}
+
+	p{
+		color: #ffffff;
+		line-height: 25px;
+		margin-bottom: 20px;
+	}
+
+span.img-caption{
+	display: block;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 10px 0px 10px 0px;
+}
+
+/*Container/class etc Override Rules*/
+.welcome-message{
+	margin-top: 200px;
+}
+.welcome-button-container-talk{
+	color: #222222;
+	background-color: #fff;
+	margin-top: 20px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: 1px;
+	width: max-content;
+}
+
+.welcome-button-container-talk:hover{
+	color: #fff;
+	background-color: #222222;
+	
+}
+.welcome-button-container{
+	margin-top: 20px;
+}
+
+.welcome-button{
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid #000;
+	font-family:'Brandon Grotesque', Sans-Serif;
+	font-size: 15px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.welcome-button:hover{
+	color: #fff;
+	background-color: #000;
+	border-color: #000;
+}
+
+.welcome-button:active {
+	background-color: #fff;
+}
+
+.master-heading{
+	color: #ffffff;
+	padding-top: 50px;	
+}
+
+.section-heading{
+	padding-top: 50px;	
+}
+
+.slide-show{
+	padding: 30px 0px 50px 0px;
+}
+
+.nav-item-journal:hover{
+	color: #ffffff;
+	background-color: #000;
+}
+.nav-item-journal{
+	font-size: x-large;
+	font-weight: bold;
+}
+/*Footer*/
+.footer{
+	margin-top: 50px;
+	padding-top: 30px;
+	width: 100%;
+	min-height: 100px;
+	background-color: #222222;
+}
+.footerfor1 {
+	position:absolute;
+	padding-top: 30px;
+	bottom:0;
+	width:100%;
+	min-height: 100px;
+	background-color: #222222;
+ }
+
+.col-md-6, h2{
+	font-size: medium;
+	font-weight: lighter;
+	color: #fff;
+}
+
+.col-md-6, li{
+	color: #fff;
+}
+
+.col-md-6, b{
+	font-weight: bolder;
+}
+
+.pad, h3 {
+	padding-top: 20px;
+}
+
+.img-caption {
+	color: white;
+}
+
